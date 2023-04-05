@@ -1,5 +1,6 @@
 /******************************TAG**************************/
 body {
+    color: #40514e;
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -7,49 +8,95 @@ body {
   
 }
 h1 {
-    margin-top: 0;
+    margin: 60px auto 0 auto ;
     font-family: 'Sacramento', cursive;
-    font-size: 50px;
+    font-size: 5.625em;
+    line-height: 1;
+    color: #2DA890;
     
     
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    color: #2DA890;
+    padding-bottom: 10px;
 
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 
 }
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+
+}
+
+hr {
+            
+    border-style:  none;
+    border-top-style: dotted;
+    border-color: grey;
+    opacity: 60%;
+    border-width: 5px;
+    width: 5%;
+}
+
+
 
 
 
 /*****************************CLASS*************************/
-.top {
-    background-color: #e4f9f5;
-    position: relative;
-    padding-top: 100px;
+.pro {
+    font-size: 1.5rem;
+    color: #2DA890;
+    margin-bottom: 100px;
+    font-weight: normal;
     
 }
 
-.middle {
-    background-color: red;
-    height: 200px;
-    width: 200px;
+
+.top{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+    
+    
 }
 
-.bottom {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
+.middle-container {
+    background-color: white;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.profile {
+    width: 30%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    line-height: 2;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    position: relative;
+    padding: 50px 0 20px;
+    text-align: center;
+    
+    
+    
 }
 
 .bcloud {
     position: absolute;
-    left: 600px;
+    left: 500px;
     bottom: 300px;
+    
 }
 
 .tcloud {
@@ -57,10 +104,110 @@ h3 {
     right: 600px;
     top: 50px;
 }
-
-.mtn {
-
+.self {
+    width: 30%
+    
+}
+.hand {
+    font-family: 'Sacramento', cursive;
+    font-size: 1.9rem;
 }
 
+.mtn {
+    margin-bottom: auto;
+}
+
+.footer-link:hover {
+    color: white;
+    padding-bottom: 50px;
+}
+
+.skill-row {
+    
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
+
+.design-img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+.dev-img {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+    
+}
+
+.help-img {
+    width: 10%;
+}
+.foot {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    padding-top: 20px;
+    
+    
+}
+.footr {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    
+}
+
+.contact-me {
+    position: relative;
+    
+    line-height: 2;
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+
+.skills {
+    margin-top: 100px;
+}
+
+.msg {
+    width: 50%;
+    margin: 40px auto 40px;
+    
+}
+
+.btn {
+    
+    background: #66bfbf;
+    background-image: -webkit-linear-gradient(top, #66bfbf, #11999E);
+    background-image: -moz-linear-gradient(top, #66bfbf, #11999E);
+    background-image: -ms-linear-gradient(top, #66bfbf, #11999E);
+    background-image: -o-linear-gradient(top, #66bfbf, #11999E);
+    background-image: linear-gradient(to bottom, #66bfbf, #11999E);
+    -webkit-border-radius: 22;
+    -moz-border-radius: 22;
+    border-radius: 22px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 12px 16px 11px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    
+    background: #2DA890;
+    background-image: -webkit-linear-gradient(top, #2DA890, #A0E4CB);
+    background-image: -moz-linear-gradient(top, #2DA890, #A0E4CB);
+    background-image: -ms-linear-gradient(top, #2DA890, #A0E4CB);
+    background-image: -o-linear-gradient(top, #2DA890, #A0E4CB);
+    background-image: linear-gradient(to bottom, #2DA890, #A0E4CB);
+    text-decoration: none;
+  }
 
 /*****************************ID****************************/
